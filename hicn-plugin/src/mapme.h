@@ -352,9 +352,9 @@ hicn_mapme_get_dpo_face_node (hicn_face_id_t face_id)
     }
 }
 
-#define DEBUG(...)		//vlib_log_debug(mapme_main.log_class, __VA_ARGS__)
-#define WARN(...)		//vlib_log_warn(mapme_main.log_class, __VA_ARGS__)
-#define ERROR(...)		//vlib_log_err(mapme_main.log_class, __VA_ARGS__)
+#define DEBUG(...)		vlib_log_debug(mapme_main.log_class, __VA_ARGS__);
+#define WARN(...)		vlib_log_warn(mapme_main.log_class, __VA_ARGS__);
+#define ERROR(...)		vlib_log_err(mapme_main.log_class, __VA_ARGS__);
 
 #endif /* __HICN_MAPME__ */
 
